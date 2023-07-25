@@ -1,0 +1,19 @@
+config {
+  type: "view"
+}
+
+SELECT
+  "grapes" AS fruit_name,
+  3 AS quantity
+UNION ALL
+SELECT
+  "strawberries" AS fruit_name,
+  8 AS quantity
+UNION ALL
+SELECT
+  "watermelons" AS fruit_name,
+  2 AS quantity
+UNION ALL
+SELECT
+  "kiwis" AS fruit_name,
+  4 AS quantity
